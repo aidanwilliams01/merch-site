@@ -5,7 +5,10 @@ import PropTypes from "prop-types";
 function Item(props){
   const [quantity, setCount] = useState(props.quantity);
 
+  // commit. move buy and restock to item detail?
+
   function decrement() {
+    // change to setState?
     setCount(quantity => quantity - 1);
     // logic to handle out-of-stock
   }
@@ -18,15 +21,17 @@ function Item(props){
 
   return (
     <React.Fragment>
-      <h3>{props.name}</h3>
-      <p><em>{props.description}</em></p>
-      <p>In stock: {quantity}</p>
+      <div onClick = {() => props.whenItemClicked(props.id)}>
+        <h3>{props.name}</h3>
+        <p><em>{props.description}</em></p>
+        <p>In stock: {quantity}</p>
+      </div>
       <button onClick={decrement}>Buy</button>
-      <form onSubmit={restock}>
-        <input type='number' name='quantity' min="1" />
-        <button>Restock</button>
-      </form>
-      <hr/>
+        <form onSubmit={restock}>
+          <input type='number' name='quantity' min="1" />
+          <button>Restock</button>
+        </form>
+        <hr/>
     </React.Fragment>
   );
 }
@@ -34,7 +39,9 @@ function Item(props){
 Item.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  quantity: PropTypes.string.isRequired
+  quantity: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  whenItemClicked: PropTypes.func
 };
 
 export default Item;
