@@ -1,6 +1,4 @@
-# (Application Name)
-
-#### (Brief Description of Application)
+# Merch Site
 
 #### By Aidan Williams
 
@@ -18,6 +16,8 @@
 
 ## Description
 
+A merch site where users can add, edit, delete, buy, and restock items. Click on an added item to see more functionality.
+
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
@@ -33,8 +33,7 @@
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs._
 
 ## License
 
