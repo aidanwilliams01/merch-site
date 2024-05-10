@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C9pMarFbB6TXwQX7p874" name="Page-1">
-        <mxGraphModel dx="929" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1215" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="3" value="ItemControl" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="18" vertex="1">
                     <mxGeometry width="1200" height="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="18">
+                <mxCell id="19" value="" style="group" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="45.57" y="42.42" width="350" height="286.36" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="group" parent="19" vertex="1" connectable="0">
@@ -34,7 +34,7 @@
                 <mxCell id="16" value="Add Item" style="rounded=0;whiteSpace=wrap;html=1;" parent="19" vertex="1">
                     <mxGeometry y="233.33037037037036" width="350" height="53.02962962962963" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="18">
+                <mxCell id="20" value="" style="group" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="425" y="42.42" width="350" height="286.36" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="NewItemForm" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="20" vertex="1">
@@ -43,19 +43,19 @@
                 <mxCell id="17" value="Submit" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
                     <mxGeometry x="49.99999999999998" y="222.7244444444444" width="249.99999999999997" height="53.029629629629625" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="18">
+                <mxCell id="21" value="" style="group" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="810" y="42.420000000000016" width="350" height="286.36" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="ItemDetail" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="21">
+                <mxCell id="22" value="ItemDetail" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="21" vertex="1">
                     <mxGeometry width="349.99999999999994" height="286.36" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Update/Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                <mxCell id="23" value="Update/Delete" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
                     <mxGeometry x="49.99999999999998" y="222.7244444444444" width="249.99999999999997" height="53.029629629629625" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Restock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                <mxCell id="24" value="Restock" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
                     <mxGeometry x="50" y="147.5844444444444" width="249.99999999999997" height="53.029629629629625" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Buy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                <mxCell id="25" value="Buy" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
                     <mxGeometry x="50" y="67.58444444444439" width="249.99999999999997" height="53.029629629629625" as="geometry"/>
                 </mxCell>
             </root>

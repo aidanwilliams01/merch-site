@@ -5,12 +5,12 @@ function ItemDetail(props){
   const { item, onClickingDelete } = props;
 
   function decrement() {
-    props.onEditItem({name: item.name, description: item.description, quantity: item.quantity - 1, id: item.id});
+    props.onEditItem({name: item.name, description: item.description, quantity: (item.quantity - 1).toString(), id: item.id});
   }
 
   function restock(event) {
     event.preventDefault();
-    props.onEditItem({name: item.name, description: item.description, quantity: parseInt(item.quantity) + parseInt(event.target.quantity.value), id: item.id});
+    props.onEditItem({name: item.name, description: item.description, quantity: (parseInt(item.quantity) + parseInt(event.target.quantity.value)).toString(), id: item.id});
   }
 
   return (

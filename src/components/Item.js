@@ -26,7 +26,7 @@ function Item(props){
         {props.quantity > 0 &&
           <p>In stock: {props.quantity}</p>
         }
-        {props.quantity === 0 &&
+        {props.quantity == 0 &&
           <p><strong>Out of Stock</strong></p>
         }
       </div>
